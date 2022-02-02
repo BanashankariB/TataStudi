@@ -37,6 +37,8 @@ Mobile.tap(findTestObject('Object Repository/ReviseModuleQuizCorrectOptionSubmit
 Mobile.tap(findTestObject('Object Repository/ReviseModuleQuizCorrectOptionSubmit/android.widget.TextView - Start new session'), 
     0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('Object Repository/ReviseModuleQuizCorrectOptionSubmit/android.widget.TextView - Syllabus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/ReviseModuleQuizCorrectOptionSubmit/android.widget.TextView - English Language'), 

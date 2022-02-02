@@ -33,13 +33,17 @@ Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextV
 
 Mobile.checkElement(findTestObject('android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Syllabus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - English Language'), 0)
 
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Test'), 0)
 
-Mobile.tap(findTestObject('TestModuleQuiz/android.widget.TextView - Test again'), 0)
+Mobile.tap(findTestObject('VerifyMissedSCQ/android.widget.TextView - Re-attempt Test'), 0)
+
+Mobile.tap(findTestObject('VerifyMissedSCQ/android.widget.TextView - Re-attempt Test (1)'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/TestModuleQuiz/android.widget.CheckedTextView - bee'), 0)
 
@@ -53,8 +57,6 @@ Mobile.verifyElementVisible(findTestObject('Object Repository/TestModuleQuiz/and
     0)
 
 Mobile.tap(findTestObject('TestModuleQuiz/android.widget.CheckedTextView - honey'), 0)
-
-Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - parrot'), 0)
 
@@ -73,11 +75,6 @@ Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.Check
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.CheckedTextView - clothes'), 0)
 
 Mobile.tap(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Submit Test'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Continue studying'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Test again'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/TestModuleQuiz/android.widget.TextView - Check Answers'), 
     0)

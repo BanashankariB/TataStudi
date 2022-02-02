@@ -36,6 +36,8 @@ Mobile.tap(findTestObject('Object Repository/VerifyLaunchRevisionFromMySyllabus/
 
 Mobile.tap(findTestObject('android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/VerifyLaunchRevisionFromMySyllabus/android.widget.TextView - Plan  Test Unit'), 
     0)
 

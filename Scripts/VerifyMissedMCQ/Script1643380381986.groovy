@@ -31,45 +31,39 @@ Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.Text
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Anvita'), 0)
 
+Mobile.tap(findTestObject('ReviseModuleQuizCorrectOptionSubmit/android.widget.TextView - Start new session'), 0)
+
+Mobile.tap(findTestObject('VerifyBeginRevise/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Syllabus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - English Language'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Test'), 0)
 
-Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Test again'), 0)
+Mobile.tap(findTestObject('VerifyMissedSCQ/android.widget.TextView - Re-attempt Test'), 0)
+
+Mobile.tap(findTestObject('Object Repository/VerifyMissedSCQ/android.widget.TextView - Re-attempt Test (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - bee'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - honey'), 0)
 
-Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.ImageView'), 0)
-
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - parrot'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - girl'), 0)
-
-Mobile.tap(findTestObject(''), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Bottle'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Baby'), 0)
 
-Mobile.tap(findTestObject(''), 0)
-
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - fruits'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - garden'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - friends'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - toys'), 0)
-
-Mobile.tap(findTestObject(''), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - End of Test'), 0)
 
@@ -80,46 +74,9 @@ Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.Text
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Check Answers'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/VerifyMissedSCQ/android.widget.TextView - Missed'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Exit Review'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.CheckedTextView - bee (1)'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Re-attempt Test'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Re-attempt Test for a better score'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - All previous scores will be lost'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Return'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/VeriFyMissedMCQ/android.widget.TextView - Oops You missed this'), 
-    0)
 
 Mobile.closeApplication()
 

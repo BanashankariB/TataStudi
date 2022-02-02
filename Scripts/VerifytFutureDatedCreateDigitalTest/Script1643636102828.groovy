@@ -37,6 +37,8 @@ Mobile.tap(findTestObject('VerifyIdontKnowClick/android.widget.TextView - Anvita
 Mobile.tap(findTestObject('Object Repository/VerifytFutureDatedCreateDigitalTest/android.widget.TextView - Start new session'), 
     0)
 
+
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
 Mobile.tap(findTestObject('Object Repository/VerifytFutureDatedCreateDigitalTest/android.widget.TextView - Hide Message'), 
     0)
 

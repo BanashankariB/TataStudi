@@ -33,6 +33,9 @@ Mobile.tap(findTestObject('Object Repository/VerifyChapterPage/android.widget.Te
 
 Mobile.tap(findTestObject('Object Repository/VerifyChapterPage/android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
+
 Mobile.tap(findTestObject('Object Repository/VerifyChapterPage/android.widget.TextView - Syllabus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/VerifyChapterPage/android.widget.TextView - English Language'), 0)

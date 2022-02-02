@@ -35,6 +35,8 @@ Mobile.tap(findTestObject('Object Repository/SuccessfulCompletitionOfTest/androi
 
 Mobile.checkElement(findTestObject('android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('Object Repository/SuccessfulCompletitionOfTest/android.widget.TextView - Syllabus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/SuccessfulCompletitionOfTest/android.widget.ImageButton'), 0)

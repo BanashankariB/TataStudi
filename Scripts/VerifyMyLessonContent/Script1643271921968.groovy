@@ -33,6 +33,8 @@ Mobile.tap(findTestObject('android.widget.TextView - Anvita (1)'), 0)
 
 Mobile.checkElement(findTestObject('android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('MyLesson/android.widget.TextView - Plan  Test Unit'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/MyLesson/android.widget.TextView - Our plan for today'), 
@@ -42,19 +44,27 @@ Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.w
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Today'), 0)
 
+Mobile.scrollToText('Upcoming', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Upcoming'), 0)
+
+Mobile.scrollToText('View Full Schedule', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - View Full Schedule'), 0)
 
+Mobile.scrollToText('Portion', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Portion'), 0)
+
+Mobile.scrollToText('Time', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Time'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Review Plan'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/MyLesson/android.widget.TextView - Test'), 0)
+Mobile.scrollToText('Test', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/MyLesson/android.widget.TextView - Practice 1'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/MyLesson/android.widget.TextView - Test'), 0)
 
 Mobile.closeApplication()
 

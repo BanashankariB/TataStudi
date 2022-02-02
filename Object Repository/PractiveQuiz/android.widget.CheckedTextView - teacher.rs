@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.CheckedTextView - teacher</name>
    <tag></tag>
-   <elementGuidId>6fdc57cb-a2bc-470e-91b4-adf1186578fe</elementGuidId>
+   <elementGuidId>96a1dd5c-7f18-4b55-bad3-7dc89625c1c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +21,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -154,12 +154,12 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[1]</value>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.CheckedTextView' and @resource-id = 'android:id/text1' and @index='0']</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[1][count(. | //*[@class = 'android.widget.CheckedTextView' and @resource-id = 'android:id/text1']) = count(//*[@class = 'android.widget.CheckedTextView' and @resource-id = 'android:id/text1'])]</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

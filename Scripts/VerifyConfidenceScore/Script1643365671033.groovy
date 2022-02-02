@@ -35,6 +35,8 @@ Mobile.tap(findTestObject('android.widget.TextView - Anvita (1)'), 0)
 
 Mobile.tap(findTestObject('android.widget.TextView - Start new session'), 0)
 
+Mobile.tap(findTestObject('VerifyCreateNote/android.widget.TextView - Hide Message'), 0)
+
 Mobile.tap(findTestObject('android.widget.TextView - Syllabus'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/ExplorePlan/android.widget.TextView - English Language'), 
